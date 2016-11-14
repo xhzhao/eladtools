@@ -1,6 +1,4 @@
 require 'nn'
-require 'cunn'
-
 function CPU2CUDA(model)
     local cuda_model = nn.Sequential()
     local Transposed = false

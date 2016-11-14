@@ -1,5 +1,4 @@
 require 'nn'
-require 'cunn'
 local SpatialNMS, parent = torch.class('nn.SpatialNMS', 'nn.Module')
 
 function SpatialNMS:__init(ratio)

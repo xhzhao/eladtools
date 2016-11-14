@@ -1,5 +1,4 @@
 require 'nn'
-require 'cunn'
 local GlobalDominantPooling, parent = torch.class('nn.GlobalDominantPooling', 'nn.Module')
 
 function GlobalDominantPooling:__init(ratio)

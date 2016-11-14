@@ -1,5 +1,4 @@
 require 'nn'
-require 'cunn'
 local SpatialBottleNeck, parent = torch.class('nn.SpatialBottleNeck', 'nn.Module')
 
 function SpatialBottleNeck:__init(ratio)
